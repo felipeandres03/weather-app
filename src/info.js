@@ -131,7 +131,7 @@ const Info = () =>{
                                     <i className="fas fa-temperature-high"></i>
                                 </button>
                             </div>
-                            <img className="img" src="https://lh3.googleusercontent.com/proxy/OxceRADqgTaQPEjhQAOURKYES9HSiLq3WusEfhB2MXAL7AClFE2hWr1mFvTp0sDpEj-kJH0yn0qk7G-JOv6RNuIgFCGfvk365Ofs" alt=""/>  {wind}
+                            <i className="fas fa-wind"></i> {wind}
                         </div>
                     </div>
                 </div>
