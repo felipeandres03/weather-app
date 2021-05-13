@@ -26,7 +26,7 @@ const Info = () =>{
             const creatorUrl = await fetch(URL, {
             method: 'GET'
             })
-            urlCity = creatorUrl.url.replace('localhost:3000/','')
+            urlCity = creatorUrl.url.replace('https://weatherappbeta.netlify.app/','http://')
             if(urlCity){
                setdata(urlCity)
                console.log(urlCity)
